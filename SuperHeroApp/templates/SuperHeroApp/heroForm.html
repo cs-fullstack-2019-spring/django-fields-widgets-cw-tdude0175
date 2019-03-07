@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hero Form</title>
+</head>
+<body>
+{% if form.errors %}
+{{ form.errors }}
+{% endif %}
+<form method="post" action="{% url 'ThankYou' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>submit</button>
+</form>
+</body>
+</html>
