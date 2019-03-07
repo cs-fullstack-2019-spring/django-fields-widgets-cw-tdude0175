@@ -8,7 +8,7 @@
 {% if form.errors %}
 {{ form.errors }}
 {% endif %}
-<form method="post" action="{% url 'ThankYou' %}">
+<form method="post" action="{% url 'thankYou' %}">
     {% csrf_token %}
     {{ form.as_p }}
     <button>submit</button>
