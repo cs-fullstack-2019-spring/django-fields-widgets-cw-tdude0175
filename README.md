@@ -1,7 +1,5 @@
 # django-fields_widgets_cw
 
-Movie Extra Application
-
 Create a page for a city to welcome all super heros to apply for residence in their city. Provide a link to a different page that will have a form with the following data:
 - Name
 - City or Origin
